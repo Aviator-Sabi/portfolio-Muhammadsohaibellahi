@@ -79,6 +79,13 @@ Feel free to reach out! I'm always open to interesting conversations
 and collaboration opportunities.`,
 
     education: `Education
+Microcomputer Systems and Networks (CFGM)
+CFP Llefià | 2023 – Present
+• Assembly and maintenance of computer equipment
+• Single-user operating systems and office applications
+• Local area network (LAN) configuration and management
+• Training in professional orientation, entrepreneurship, and workplace skills
+• Technical English for IT and networking
 
 Technical Assistant in Electrical and Electrotechnical Installation Operations
 CFP Llefià | 2022 – 2023
@@ -87,13 +94,6 @@ CFP Llefià | 2022 – 2023
 • Performed low-voltage electrical and smart-building maintenance operations
 • Completed an integrated project applying theoretical and practical skills
 
-Microcomputer Systems and Networks (CFGM)
-CFP Llefià | 2023 – Present
-• Assembly and maintenance of computer equipment
-• Single-user operating systems and office applications
-• Local area network (LAN) configuration and management
-• Training in professional orientation, entrepreneurship, and workplace skills
-• Technical English for IT and networking
 `,
 
     sudo: `[sudo] password for portfloio:
