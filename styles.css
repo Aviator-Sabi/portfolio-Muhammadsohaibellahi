@@ -69,7 +69,7 @@ body {
     background: linear-gradient(145deg, #1a1a1a, #0a0a0a);
     border-radius: 16px;
     padding: 20px;
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 20px 60px #00000080;
     transition: transform 0.3s ease;
     position: relative;
     overflow: hidden;
@@ -84,7 +84,7 @@ body {
     height: 100%;
     object-fit: cover;
     border-radius: 12px;
-    filter: grayscale(100%);
+    /*filter: grayscale(100%);*/
 }
 
 /* Terminal Panel */
@@ -201,7 +201,17 @@ body {
     outline: none;
     color: transparent;
 }
+.copy {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0a84ff;
+}
 
+.terminal-link {
+    color: #0a84ff;
+    text-decoration: underline;
+    cursor: pointer;
+}
 /* Footer */
 .footer {
     padding: 0.5rem 1rem;

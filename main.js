@@ -28,12 +28,14 @@ I am a motivated and adaptable professional with experience in customer service 
    A unique interactive portfolio using terminal interface
    Technologies: JavaScript, CSS, HTML
 
-2. [Restaurant Website]
+2. Restaurant Website
    I created a website for my restaurant to showcase the menu, location, and contact information. The project was fully developed, but it was never published as we sold the restaurant before launch. Only a few pictures were missing, which couldn’t be found online.
    Technologies: HTML, CSS.
-3. [YouTube Home Page UI Clone]
+
+3. YouTube Home Page UI Clone
    I recreated the YouTube home page user interface using HTML and CSS. This project focused on replicating the layout, styling, and visual elements, helping me improve my front-end design skills and attention to detail.
-   Technologies: HTML, CSS.`,
+   Technologies: HTML, CSS.
+   Link: `,
 
     skills: `Technical Skills
 
@@ -68,10 +70,10 @@ Intern | Electrical Assistant Intern | NH Hoteles (Hotel NH Constanza)
 
     contact: `Contact Information
 
-📧 Email: muhammadsohaibellahi@gmail.com
-📞 Phone: +34 693252305
-💼 LinkedIn: https://www.linkedin.com/in/muhammad-sohaib-ellahi-859531310
-🌐 Website: 
+📧 Email: <span class="copy" data-copy="muhammadsohaibellahi@gmail.com">muhammadsohaibellahi@gmail.com</span>
+📞 Phone: <span class="copy" data-copy="+34 693252305">+34 693252305</span>
+💼 LinkedIn: <a href="https://www.linkedin.com/in/muhammad-sohaib-ellahi-859531310" target="_blank" class="terminal-link">https://www.linkedin.com/in/muhammad-sohaib-ellahi-859531310</a>
+🌐 Website: <a href="https://www.muhammadsohaibellahi.eu" target="_blank" class="terminal-link">muhammadsohaibellahi.eu</a>
 
 Feel free to reach out! I'm always open to interesting conversations
 and collaboration opportunities.`,
@@ -154,7 +156,7 @@ terminalInput.addEventListener('keydown', (e) => {
                 response.className = 'response';
 
                 if (commands[command]) {
-                    response.textContent = commands[command];
+                    response.innerHTML = commands[command];
                 } else {
                     response.textContent = `Command not found: ${command}\nType 'help' to see available commands.`;
                 }
@@ -182,3 +184,16 @@ document.addEventListener('click', () => {
 terminalInput.focus();
 
 console.log('Terminal loaded successfully! Type "help" to get started.');
+
+// Handle clicks on copyable items
+terminalOutput.addEventListener('click', (e) => {
+    const target = e.target;
+    if (target.classList.contains('copy')) {
+        const text = target.getAttribute('data-copy');
+        navigator.clipboard.writeText(text)
+            .then(() => {
+                alert(`Copied: ${text}`);
+            })
+            .catch(err => console.error('Copy failed', err));
+    }
+});
