@@ -10,7 +10,6 @@ const commands = {
 
     help          - Show available commands
     about         - Learn more about me
-    projects      - View my projects
     skills        - Check out my technical skills
     experience    - See my work experience
     contact       - Get my contact information
@@ -22,34 +21,35 @@ const commands = {
 
 I am a motivated and adaptable professional with experience in customer service and technical studies in IT systems and networks. I’ve developed strong teamwork, communication, and problem-solving skills through hands-on work in both the restaurant and maintenance industries. Currently, I’m pursuing a career as an IT Systems and Networks Technician, where I can apply my technical knowledge, practical experience, and passion for technology in a dynamic and evolving work environment.`,
 
-    projects: `My Projects
 
-1. Portfolio Terminal
-   A unique interactive portfolio using terminal interface
-   Technologies: JavaScript, CSS, HTML
 
-2. Restaurant Website
-   I created a website for my restaurant to showcase the menu, location, and contact information. The project was fully developed, but it was never published as we sold the restaurant before launch. Only a few pictures were missing, which couldn’t be found online.
-   Technologies: HTML, CSS.
+    skills: `
+    Technical Skills:
 
-3. YouTube Home Page UI Clone
-   I recreated the YouTube home page user interface using HTML and CSS. This project focused on replicating the layout, styling, and visual elements, helping me improve my front-end design skills and attention to detail.
-   Technologies: HTML, CSS.
-   Link: `,
+    Hardware assembly, repair and maintenance
+    Operating Systems: Windows, Linux, MacOS
+    Network setup and configuration (LAN, routers, basic switching)
+    Technical Support & Troubleshooting (onsite and remote)
+    Office & Productivity Tools (Microsoft Office · Google Workspace)
+    Telecommunications and basic domotics installations
+    End-user IT Support & System Maintenance
+    Frontend: HTML & CSS
 
-    skills: `Technical Skills
+    Personal Skills:
+    Communication & customer service
+    Teamwork and collaboration
+    Leadership and staff coordination
+    Problem-solving and adaptability
+    Responsibility and initiative
+    Ability to work under pressure
+    Task and time management
 
-Programming Languages:
-  • Python
-
-Frontend:
-  • HTML/CSS
-
-Languages:
-  • English [Fluent]
-  • Hindi/Urdu [Fluent]
-  • Spanish [Preety Good/Fluent]
-  • Catalan [Good]`,
+    Languages:
+    English: Fluent
+    Spanish: Fluent
+    Hindi / Urdu: Fluent
+    Catalan: Good 
+    `,
 
     experience: `Work Experience
 
