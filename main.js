@@ -24,31 +24,31 @@ I am a motivated and adaptable professional with experience in customer service 
 
 
     skills: `
-    Technical Skills:
+Technical Skills:
 
-    Hardware assembly, repair and maintenance
-    Operating Systems: Windows, Linux, MacOS
-    Network setup and configuration (LAN, routers, basic switching)
-    Technical Support & Troubleshooting (onsite and remote)
-    Office & Productivity Tools (Microsoft Office · Google Workspace)
-    Telecommunications and basic domotics installations
-    End-user IT Support & System Maintenance
-    Frontend: HTML & CSS
+Hardware assembly, repair and maintenance
+Operating Systems: Windows, Linux, MacOS
+Network setup and configuration (LAN, routers, basic switching)
+Technical Support & Troubleshooting (onsite and remote)
+Office & Productivity Tools (Microsoft Office · Google Workspace)
+Telecommunications and basic domotics installations
+End-user IT Support & System Maintenance
+Frontend: HTML & CSS
 
-    Personal Skills:
-    Communication & customer service
-    Teamwork and collaboration
-    Leadership and staff coordination
-    Problem-solving and adaptability
-    Responsibility and initiative
-    Ability to work under pressure
-    Task and time management
+Personal Skills:
+Communication & customer service
+Teamwork and collaboration
+Leadership and staff coordination
+Problem-solving and adaptability
+Responsibility and initiative
+Ability to work under pressure
+Task and time management
 
-    Languages:
-    English: Fluent
-    Spanish: Fluent
-    Hindi / Urdu: Fluent
-    Catalan: Good 
+Languages:
+English: Fluent
+Spanish: Fluent
+Hindi / Urdu: Fluent
+Catalan: Good 
     `,
 
     experience: `Work Experience
